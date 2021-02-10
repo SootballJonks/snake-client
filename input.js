@@ -19,14 +19,14 @@ const handleUserInput = (data) => {
     }
   }
 
-  const msgInputs = [1, 2, 3, 4, 5];
+  const msgInputs = ['1', '2', '3', '4', '5'];
   if (msgInputs.includes(data)) {
     switch (data) {
       case '1': connection.write('Say: Beep boop!');
       break;
       case '2': connection.write('Say: What\'s up, gamers!');
       break;
-      case '3': connection.write('Say: Get out da way!');
+      case '3': connection.write('Say: momch momch momch');
       break;
       case '4': connection.write('Say: I am snek c:');
       break;
